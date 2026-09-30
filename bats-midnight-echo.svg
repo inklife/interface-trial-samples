@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="820" viewBox="0 0 1000 820" fill="#f6efdf" role="img" aria-labelledby="art-title art-desc">
+  <title id="art-title">A bat's midnight echo: one call, one pillar, a returning clue</title>
+  <desc id="art-desc">Three original night-time illustrations follow the same imagined echolocating bat beside the same stone pillar. Gold sound waves travel from the bat to the pillar; teal reflected sound travels left from the pillar to the bat's ears. Captions and a factual footer distinguish emitted sound from its returning echo. Arrows show schematic sound paths, not light rays or a measured timeline.</desc>
+  <metadata id="scientific-source-map"><![CDATA[
+{
+  "work": "A bat's midnight echo",
+  "originality": "Original character, pillar, vector geometry, composition and prose; no source artwork or diagrams reproduced.",
+  "sources": {
+    "NPS": {"url": "https://www.nps.gov/subjects/bats/echolocation.htm", "publisher": "U.S. National Park Service", "title": "Echolocation", "updated": "2024-10-17"},
+    "Brown": {"url": "https://archive2.news.brown.edu/1987-2007/1998-99/98-026.html", "publisher": "Brown University News Bureau", "title": "Bat sonar sharper than thought; much better than man-made gear", "published": "1998-10-12"}
+  },
+  "claim_mapping": [
+    {"claim": "Elapsed call-to-echo time provides a distance cue.", "location": "factual-footer and caption-3", "source": "Brown", "support": "The university account explains that timing of returning echoes is used to determine distance to a structure or target."},
+    {"claim": "Call patterns differ among bat species.", "location": "factual-footer", "source": "NPS", "support": "The government page explains that bat species have differing call patterns."},
+    {"claim": "An echolocating bat emits sound.", "location": "panel-1, caption-1, gold outgoing arrow and waves", "source": "NPS", "support": "The page describes sound waves emitted by bats."},
+    {"claim": "Emitted sound reaches an object and part of it is reflected.", "location": "panel-2, caption-2, gold waves at the pillar and short teal returning arrow", "source": "NPS", "support": "The page describes emitted sound bouncing off environmental objects."},
+    {"claim": "Reflected sound returns to the bat's ears as an echo.", "location": "panel-3, caption-3, teal leftward arrow and wavefronts", "source": "NPS", "support": "The page describes sounds returning to bats' ears."}
+  ],
+  "representation": "This imagined bat is echolocating; no universal claim is made about all bats. The pillar is inanimate and unchanged. Wavefronts, arrows, spacing and stages are schematic simplifications of sound spreading and reflection, not a measured timeline or light. A single reflected route is illustrated; other spreading sound is omitted for clarity.",
+  "source_access_date_UTC": "2026-09-30",
+  "caption_word_counts": [16, 18, 19],
+  "footer_word_count": 34
+}
+  ]]></metadata>
+  <defs>
+    <style>
+      text {font-family: "Segoe UI", Arial, sans-serif;}
+      .small {font-size: 13px; font-weight: 600; letter-spacing: 1.4px;}
+      .chapter {font-size: 24px; font-weight: 650; letter-spacing: -.3px;}
+      .caption {font-size: 18px; font-weight: 400;}
+      .sound-label {font-size: 12px; font-weight: 650; letter-spacing: .8px;}
+      .wave {fill: none; stroke-width: 2.6; stroke-linecap: round;}
+      .out {stroke: #efb969;}
+      .back {stroke: #75d5c8;}
+    </style>
+    <marker id="arrow-out" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 L1.8 3.5Z" fill="#efb969"/></marker>
+    <marker id="arrow-back" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 L1.8 3.5Z" fill="#75d5c8"/></marker>
+    <g id="bat-character">
+      <!-- This exact original geometry is reused in all three panels. -->
+      <path d="M-4-4 Q-24-36-61-33 Q-45-16-43 6 Q-32-9-23 16 Q-14 5-5 21 L9 18 Q15 7 24 18 Q25-5 39-3 Q29-22 11-13Z" fill="#61718d" stroke="#c4cee0" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M-4-4 L-43 6 M-4-4 L-23 16 M10-9 L24 18 M10-9 L39-3" fill="none" stroke="#a1aec5" stroke-width="1.2"/>
+      <path d="M-9-7 C-17 3-12 28-3 33 L8 28 C19 21 20 1 12-9Z" fill="#2b354e" stroke="#c4cee0" stroke-width="1.8"/>
+      <path d="M-3 11 Q3 7 9 11 Q9 20 3 24 Q-3 20-3 11Z" fill="#efb969"/>
+      <path d="M-9-19 Q-17-40-8-46 Q3-41 3-21 M8-21 Q8-43 19-43 Q25-35 17-18" fill="#61718d" stroke="#c4cee0" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M-7-25 Q-11-37-7-39 M13-26 Q14-36 18-37" fill="none" stroke="#dda3a5" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-10-19 Q0-29 14-21 Q23-17 24-8 L32-4 L25 1 Q21 12 6 11 Q-9 8-10-19Z" fill="#71829f" stroke="#c4cee0" stroke-width="1.8" stroke-linejoin="round"/>
+      <ellipse cx="17" cy="-11" rx="3" ry="4" fill="#101b2c"/><circle cx="18" cy="-12" r=".9" fill="#f6efdf"/>
+      <path d="M24 1 Q27 4 30 1" fill="none" stroke="#f6efdf" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M-1 28 L-7 36 M10 27 L14 34" fill="none" stroke="#c4cee0" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <g id="stone-pillar">
+      <!-- One inanimate obstacle, kept in the same position and scale. -->
+      <path d="M-18 110 L-15 11 L16 6 L22 110Z" fill="#77858b" stroke="#b6c4c4" stroke-width="1.7"/>
+      <path d="M4 9 L16 6 L22 110 L5 110Z" fill="#4b606b"/>
+      <path d="M-21 8 L14 2 L24 7 L-10 15Z" fill="#b6c4c4" stroke="#c9d3d0" stroke-width="1.3"/>
+      <path d="M-19 29 L17 25 M-19 60 L18 59 M-19 88 L20 87 M-2 29 L-2 60 M-9 60 L-9 88 M8 88 L8 110" fill="none" stroke="#485c68" stroke-width="1.5"/>
+      <path d="M-24 111 L22 111 L27 121 L-29 121Z" fill="#566b74" stroke="#b6c4c4" stroke-width="1.5"/>
+      <path d="M-15 43 L-8 39 M-5 74 L0 71 M-7 103 L-2 101" fill="none" stroke="#bdc8c5" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+    <g id="night-details" fill="#a9b7cd">
+      <circle cx="48" cy="81" r="1.3"/><circle cx="166" cy="89" r="1.1"/><circle cx="272" cy="92" r="1.4"/>
+      <path d="M204 67 V74 M200.5 70.5 H207.5" stroke="#b7c4d7" stroke-width="1"/>
+      <path d="M24 238 Q122 220 281 237" fill="none" stroke="#3b5267" stroke-width="1.2"/>
+      <ellipse cx="242" cy="239" rx="35" ry="4" fill="#0d1b2c"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="820" fill="#101b2c"/>
+  <path d="M30 154 H970" stroke="#3b4a60" stroke-width="1"/>
+  <text x="32" y="49" class="small" fill="#b8c6d9">A LITTLE NIGHT STORY</text>
+  <text x="29" y="110" font-size="54" font-weight="650" letter-spacing="-2">A bat’s midnight echo</text>
+  <text x="33" y="137" font-size="17" fill="#b8c6d9">One call. One pillar. A returning clue.</text>
+  <path d="M926 24 A28 28 0 1 0 951 64 A25 25 0 0 1 926 24Z" fill="#f6dfb4"/>
+  <circle cx="881" cy="31" r="1.8" fill="#f6dfb4"/><path d="M974 43 V53 M969 48 H979" stroke="#b8c6d9" stroke-width="1.5"/>
+  <g aria-label="Sound color key">
+    <path d="M720 125 H751" stroke="#efb969" stroke-width="2" marker-end="url(#arrow-out)"/><text x="760" y="130" font-size="13" fill="#efb969">call</text>
+    <path d="M866 125 H835" stroke="#75d5c8" stroke-width="2" marker-end="url(#arrow-back)"/><text x="877" y="130" font-size="13" fill="#75d5c8">echo</text>
+  </g>
+
+  <g id="panel-1" class="illustrated-panel" transform="translate(30 178)" aria-label="Panel one: sound emitted">
+    <rect width="300" height="420" rx="18" fill="#1a2a40" stroke="#40526b"/>
+    <text x="22" y="34" class="small" fill="#efb969">01 / EMIT</text>
+    <text x="22" y="63" class="chapter">A question in the dark.</text>
+    <use href="#night-details"/>
+    <use href="#bat-character" transform="translate(79 174)"/>
+    <use href="#stone-pillar" transform="translate(243 106)"/>
+    <g class="wave out" aria-label="Gold emitted sound moving right">
+      <path d="M121 156 Q134 174 121 192"/>
+      <path d="M139 147 Q158 174 139 201"/>
+      <path d="M159 136 Q186 174 159 212"/>
+      <path d="M116 225 H180" stroke-width="2" marker-end="url(#arrow-out)"/>
+    </g>
+    <text x="115" y="258" class="sound-label" fill="#efb969">OUTGOING CALL</text>
+    <path d="M22 280 H278" stroke="#40526b"/>
+    <text id="caption-1" x="22" y="315" class="caption"><tspan x="22">I send a short sound into the </tspan><tspan x="22" dy="25">night; the old stone pillar has </tspan><tspan x="22" dy="25">not answered yet.</tspan></text>
+    <path d="M22 397 H67" stroke="#efb969" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="panel-2" class="illustrated-panel" transform="translate(350 178)" aria-label="Panel two: sound reaches and reflects from the same pillar">
+    <rect width="300" height="420" rx="18" fill="#1a2a40" stroke="#40526b"/>
+    <text x="22" y="34" class="small" fill="#efb969">02 / REFLECT</text>
+    <text x="22" y="63" class="chapter">The stone answers.</text>
+    <use href="#night-details"/>
+    <use href="#bat-character" transform="translate(79 174)"/>
+    <use href="#stone-pillar" transform="translate(243 106)"/>
+    <g class="wave out" aria-label="Gold outgoing sound reaches the pillar's left surface">
+      <path d="M189 139 Q215 174 189 209"/>
+      <path d="M208 145 Q229 174 208 203"/>
+      <path d="M113 125 H224" stroke-width="2" marker-end="url(#arrow-out)"/>
+    </g>
+    <path d="M221 161 Q212 174 221 187" class="wave back"/>
+    <path d="M222 225 H195" class="wave back" stroke-width="2" marker-end="url(#arrow-back)"/>
+    <circle cx="225" cy="174" r="3.5" fill="#f6efdf"/>
+    <text x="109" y="258" class="sound-label" fill="#efb969">SOUND MEETS STONE</text>
+    <path d="M22 280 H278" stroke="#40526b"/>
+    <text id="caption-2" x="22" y="315" class="caption"><tspan x="22">My outgoing sound reaches the </tspan><tspan x="22" dy="25">same stone pillar. Its surface </tspan><tspan x="22" dy="25">reflects part of the sound </tspan><tspan x="22" dy="25">back toward me.</tspan></text>
+    <path d="M22 397 H67" stroke="#efb969" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="panel-3" class="illustrated-panel" transform="translate(670 178)" aria-label="Panel three: reflected sound returns leftward to the bat's ears">
+    <rect width="300" height="420" rx="18" fill="#1a2a40" stroke="#40526b"/>
+    <text x="22" y="34" class="small" fill="#75d5c8">03 / RECEIVE</text>
+    <text x="22" y="63" class="chapter">My voice, back again.</text>
+    <use href="#night-details"/>
+    <use href="#bat-character" transform="translate(79 174)"/>
+    <use href="#stone-pillar" transform="translate(243 106)"/>
+    <g class="wave back" aria-label="Teal returning echo moves left from the pillar to the bat's ears">
+      <path d="M186 136 Q159 174 186 212"/>
+      <path d="M153 146 Q132 174 153 202"/>
+      <path d="M119 157 Q107 174 119 191"/>
+      <path d="M222 125 H94" stroke-width="2" marker-end="url(#arrow-back)"/>
+    </g>
+    <path d="M94 129 L95 137" stroke="#75d5c8" stroke-width="2" stroke-linecap="round"/>
+    <text x="115" y="258" class="sound-label" fill="#75d5c8">RETURNING ECHO</text>
+    <path d="M22 280 H278" stroke="#40526b"/>
+    <text id="caption-3" x="22" y="315" class="caption"><tspan x="22">Here comes my echo, returning </tspan><tspan x="22" dy="25">to my ears. The pause after my </tspan><tspan x="22" dy="25">call helps me judge the pillar’s </tspan><tspan x="22" dy="25">distance.</tspan></text>
+    <path d="M22 397 H67" stroke="#75d5c8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="34" y="630" class="small" fill="#b8c6d9">THE SCIENCE BEHIND THE STORY</text>
+  <rect x="30" y="647" width="940" height="132" rx="16" fill="#203547" stroke="#496170"/>
+  <path d="M52 672 V751" stroke="#75d5c8" stroke-width="3" stroke-linecap="round"/>
+  <text id="factual-footer" x="72" y="680" font-size="20"><tspan x="72">These paths simplify sound spreading and reflection. The elapsed time between </tspan><tspan x="72" dy="29">a call and its echo provides a distance cue. Call patterns differ among bat species. </tspan><tspan x="72" dy="29">This sequence is schematic, not a measured timeline.</tspan></text>
+  <text x="970" y="804" text-anchor="end" font-size="12" fill="#9cacc1">Original vector story · Scientific source mapping embedded in SVG metadata</text>
+</svg>
