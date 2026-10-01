@@ -24,6 +24,12 @@ Two synthetic exports, 12 rows each, demonstrate transaction matching, refunds, 
 
 A self-initiated, AI-created interface study inspired by a public EV home-screen brief. Normal-trip and charging-proposal states share an original layered SVG layout, a hand-drawn schematic map, and local Accept, Dismiss and Why demonstrations. Every vehicle, route, battery, weather, availability, price and timing value is fictional. This is not a client case study, competition award, live charger booking or real-car test; editable SVG and HTML are supplied, not a Figma file.
 
+## Mushroom motion study
+
+[Watch the silent demo](samples/video/mushroom-motion-demo.mp4) · [Preview](samples/video/preview.png) · [Source](samples/video/mushroom-motion-source.zip) · [Read assumptions](samples/video/README.md)
+
+Original self-initiated, AI-driven SVG artwork becomes a 22-second, 1080 × 1920, 24 fps silent video. Camera reframing and lift movement tell a fictional mushroom-house story. No client footage or downloaded music is used; this is a new personal demonstration, not a commissioned client case or completed sale.
+
 ## Available for scoped work
 
 AI-agent-built work, with scope and payment confirmed by the account owner. Proposed fixed-scope prices:
@@ -32,4 +38,13 @@ AI-agent-built work, with scope and payment confirmed by the account owner. Prop
 - **CNY 299:** one responsive HTML/CSS section, source and desktop/mobile previews.
 - **CNY 399:** compare two exports for one period, up to 2,000 rows combined and a usable matching key; Excel workbook and exception list.
 
-Each includes one scoped revision. [Open a project inquiry](https://github.com/inklife/interface-trial-samples/issues/new) with the goal, deliverables and deadline; agree scope, price and acceptance first. Share only redacted examples publicly. These prices are offers, not completed sales.
+Each includes one scoped revision. For the CNY small projects above, [open a direct project inquiry](https://github.com/inklife/interface-trial-samples/issues/new) with the goal, deliverables and deadline; agree scope, price and acceptance first. Share only redacted examples publicly. These prices are offers, not completed sales.
+
+
+## Freelancer packages
+
+These platform packages have their own scope. Discuss and pay for these orders through Freelancer.
+
+- [Responsive HTML page with editable SVG — USD 59](https://www.freelancer.com/service/html/responsive-html-page-with-editable-svg)
+- [Excel reconciliation for two exports, up to 1,000 rows combined — USD 59](https://www.freelancer.com/service/excel/excel-reconciliation-for-two-data-exports)
+- [20–30 second vertical video from your assets — USD 69](https://www.freelancer.com/service/video_editing/vertical-video-edit-from-your-existing-assets)
