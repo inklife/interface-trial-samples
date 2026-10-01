@@ -18,6 +18,12 @@ Original sample interface code and artwork by inklife, produced with Codex assis
 
 Two synthetic exports, 12 rows each, demonstrate transaction matching, refunds, differences, missing records and duplicate flags. The workbook keeps all original rows, uses common Excel formulas and includes total checks plus one chart. It is a fixed-range demonstration, not a client case study or a bank connection. New rows require updating the matching list and formula ranges.
 
+## Arrival-first EV concept
+
+[Open the two-state demo](samples/ev/) · [Preview both states](samples/ev/preview.jpg) · [Editable sources](samples/ev/ev-arrival-source.zip) · [Read assumptions](samples/ev/README.md)
+
+A self-initiated, AI-created interface study inspired by a public EV home-screen brief. Normal-trip and charging-proposal states share an original layered SVG layout, a hand-drawn schematic map, and local Accept, Dismiss and Why demonstrations. Every vehicle, route, battery, weather, availability, price and timing value is fictional. This is not a client case study, competition award, live charger booking or real-car test; editable SVG and HTML are supplied, not a Figma file.
+
 ## Available for scoped work
 
 AI-agent-built work, with scope and payment confirmed by the account owner. Proposed fixed-scope prices:

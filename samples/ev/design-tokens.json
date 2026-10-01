@@ -1,0 +1,37 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "spacing": {
+    "outer": 64,
+    "main_gap": 32,
+    "card_radius": 24,
+    "minimum_action_target": 76
+  },
+  "colors": {
+    "background": "#071016",
+    "panel": "#10212a",
+    "text": "#f2f6f7",
+    "muted": "#9ab2bf",
+    "normal": "#92e0be",
+    "planned": "#edc785"
+  },
+  "typography": {
+    "family": "Arial, Helvetica, sans-serif",
+    "arrival_headline_px": 56,
+    "arrival_charge_px": 54,
+    "body_px": 21,
+    "button_px": 24
+  },
+  "layers": [
+    "header",
+    "arrival-confidence",
+    "agent-card",
+    "charging-plan",
+    "reachable-area-map",
+    "voice-and-vehicle",
+    "persistent-controls"
+  ],
+  "data": "All displayed figures are fictional demonstration data, not connected to a car, map service or charger API."
+}
