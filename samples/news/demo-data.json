@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "id": "d5f2e1d385ea21e3e6ec",
+      "title": "Open research toolkit turns sensor readings into clearer signals",
+      "published_at": "2026-10-01T07:00:00Z",
+      "source_id": "fieldnotes",
+      "source": "Fieldnotes Tech",
+      "url": "https://fieldnotes.example/articles/research-toolkit",
+      "sample": true
+    },
+    {
+      "id": "4d83771dbf9ff1ebcd6a",
+      "title": "City library pilots a searchable public research index",
+      "published_at": "2026-10-01T06:45:00Z",
+      "source_id": "civicdesk",
+      "source": "Civic Desk",
+      "url": "https://civicdesk.example/articles/library-index",
+      "sample": true
+    },
+    {
+      "id": "14fe7a587b7dcba214c5",
+      "title": "Small teams rethink the interface for practical AI tools",
+      "published_at": "2026-10-01T06:30:00Z",
+      "source_id": "fieldnotes",
+      "source": "Fieldnotes Tech",
+      "url": "https://fieldnotes.example/articles/practical-ai",
+      "sample": true
+    },
+    {
+      "id": "8952f1e928c32cbc1e22",
+      "title": "Campus energy dashboard makes daily demand visible",
+      "published_at": "2026-10-01T06:10:00Z",
+      "source_id": "cleancurrent",
+      "source": "Clean Current",
+      "url": "https://cleancurrent.example/articles/campus-energy",
+      "sample": true
+    },
+    {
+      "id": "18efbb891443d5c41b11",
+      "title": "Energy storage pilot puts neighborhood resilience first",
+      "published_at": "2026-10-01T05:40:00Z",
+      "source_id": "fieldnotes",
+      "source": "Fieldnotes Tech",
+      "url": "https://press.example/articles/energy-storage",
+      "sample": true
+    },
+    {
+      "id": "9f9a695fdc8d01d241bc",
+      "title": "A neighborhood transport map gets a simpler mobile view",
+      "published_at": "2026-09-30T19:00:00Z",
+      "source_id": "civicdesk",
+      "source": "Civic Desk",
+      "url": "https://civicdesk.example/articles/transport-map",
+      "sample": true
+    },
+    {
+      "id": "52361c348bf16a7c5a41",
+      "title": "A quieter approach to software monitoring",
+      "published_at": "2026-09-30T16:20:00Z",
+      "source_id": "fieldnotes",
+      "source": "Fieldnotes Tech",
+      "url": "https://fieldnotes.example/articles/software-monitoring",
+      "sample": true
+    },
+    {
+      "id": "2404256642834feb54f4",
+      "title": "Public workshop asks what a useful AI service should explain",
+      "published_at": "2026-09-30T15:00:00Z",
+      "source_id": "civicdesk",
+      "source": "Civic Desk",
+      "url": "https://civicdesk.example/articles/ai-workshop",
+      "sample": true
+    },
+    {
+      "id": "7919e229da09c22c4b03",
+      "title": "Repair studios explore a longer life for everyday devices",
+      "published_at": "2026-09-30T12:45:00Z",
+      "source_id": "cleancurrent",
+      "source": "Clean Current",
+      "url": "https://cleancurrent.example/articles/repair-studios",
+      "sample": true
+    },
+    {
+      "id": "7e820cd32932c90ce3fc",
+      "title": "Open data volunteers agree a common naming guide",
+      "published_at": "2026-09-30T11:30:00Z",
+      "source_id": "civicdesk",
+      "source": "Civic Desk",
+      "url": "https://civicdesk.example/articles/naming-guide",
+      "sample": true
+    },
+    {
+      "id": "25974c0f3e9834aa2a12",
+      "title": "Community gardens test a shared water planning calendar",
+      "published_at": "2026-09-30T09:00:00Z",
+      "source_id": "cleancurrent",
+      "source": "Clean Current",
+      "url": "https://cleancurrent.example/articles/water-planning",
+      "sample": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "fieldnotes",
+      "name": "Fieldnotes Tech",
+      "kind": "fixture"
+    },
+    {
+      "id": "cleancurrent",
+      "name": "Clean Current",
+      "kind": "fixture"
+    },
+    {
+      "id": "civicdesk",
+      "name": "Civic Desk",
+      "kind": "fixture"
+    }
+  ],
+  "total": 11,
+  "last_run": "2026-10-01T08:01:49.343602Z",
+  "token": null
+}

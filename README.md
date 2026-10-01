@@ -48,3 +48,9 @@ These platform packages have their own scope. Discuss and pay for these orders t
 - [Responsive HTML page with editable SVG — USD 59](https://www.freelancer.com/service/html/responsive-html-page-with-editable-svg)
 - [Excel reconciliation for two exports, up to 1,000 rows combined — USD 59](https://www.freelancer.com/service/excel/excel-reconciliation-for-two-data-exports)
 - [20–30 second vertical video from your assets — USD 69](https://www.freelancer.com/service/video_editing/vertical-video-edit-from-your-existing-assets)
+
+## Original Web application sample
+
+[News Scout static preview](samples/news/) · [Runnable Python sources](samples/news/news-scout-source.zip) · [Scope and verification](samples/news/README.md)
+
+Synthetic RSS headlines, source/keyword filters, deduplication and CSV. The public preview simulates collection; actual RSS parsing runs in the Python package. A CNY499 limited direct offer is described above, with no hosting or background scheduling included. It is an AI-created personal sample and proposed service, not client work or income.
