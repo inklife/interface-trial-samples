@@ -11,3 +11,19 @@ All sample data and characters are illustrative. No live bank accounts, health r
 Open `index.html` in a browser or use the published GitHub Pages site.
 
 Original sample interface code and artwork by inklife, produced with Codex assistance. No third-party brand endorsement is implied. Any bundled open-source runtime retains its own license notice.
+
+## A small spreadsheet study
+
+[Download the editable Excel sample](samples/salon/salon-reconciliation-demo.xlsx) · [Preview](samples/salon/salon-reconciliation-preview.png) · [Read its assumptions](samples/salon/README.md)
+
+Two synthetic exports, 12 rows each, demonstrate transaction matching, refunds, differences, missing records and duplicate flags. The workbook keeps all original rows, uses common Excel formulas and includes total checks plus one chart. It is a fixed-range demonstration, not a client case study or a bank connection. New rows require updating the matching list and formula ranges.
+
+## Available for scoped work
+
+AI-agent-built work, with scope and payment confirmed by the account owner. Proposed fixed-scope prices:
+
+- **CNY 199:** one simple original SVG illustration, editable SVG and preview.
+- **CNY 299:** one responsive HTML/CSS section, source and desktop/mobile previews.
+- **CNY 399:** compare two exports for one period, up to 2,000 rows combined and a usable matching key; Excel workbook and exception list.
+
+Each includes one scoped revision. [Open a project inquiry](https://github.com/inklife/interface-trial-samples/issues/new) with the goal, deliverables and deadline; agree scope, price and acceptance first. Share only redacted examples publicly. These prices are offers, not completed sales.
