@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Little Lift at Morel House</title>
+<style>
+:root{color-scheme:light;--ink:#382f24;--muted:#756b58;--paper:#faf5e9;--moss:#526949;--rust:#b74f35;--line:#dcd2bc}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;min-width:0}
+main{width:min(1120px,100%);margin:auto;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:44px;align-items:center;padding:40px 32px 28px}
+.scene{min-width:0;position:relative}.art{display:block;width:100%;height:auto;overflow:visible}.caption{margin:4px 0 0;text-align:center;color:var(--muted);font:11px/1.5 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.story{padding-bottom:20px}.eyebrow{font:11px/1.5 Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--moss);margin:0 0 20px}
+h1{font-size:clamp(34px,4.3vw,56px);line-height:1.03;letter-spacing:-.045em;font-weight:400;margin:0 0 18px}h1 em{color:var(--rust);font-weight:400}
+.intro{font-size:16px;line-height:1.65;color:var(--muted);max-width:320px;margin:0 0 30px}.instruction{font:12px/1.65 Arial,sans-serif;color:var(--muted);margin:14px 0 0}
+.stop{border-top:1px solid var(--line);padding:19px 0 18px}.stop-kicker{display:flex;gap:8px;align-items:center;margin:0 0 8px;font:10px/1.5 Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--moss)}.stop-kicker::before{content:'';height:6px;width:6px;display:block;border-radius:50%;background:var(--moss)}.stop-name{font-size:27px;line-height:1.2;margin:0 0 6px}.stop-note{font-size:13px;line-height:1.6;color:var(--muted);margin:0}
+button{appearance:none;width:100%;border:1px solid var(--ink);border-radius:0;background:var(--ink);color:var(--paper);padding:17px 18px;display:flex;align-items:center;justify-content:space-between;gap:15px;cursor:pointer;font:13px/1.4 Arial,sans-serif;text-align:left}button:hover{background:var(--moss);border-color:var(--moss)}button:focus-visible{outline:3px solid var(--rust);outline-offset:5px}button .arrow{font:25px/1 Georgia,serif}button .sub{display:block;color:#d6d8c6;font-size:10px;margin-top:3px;letter-spacing:.03em}
+.directory{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:9px}.directory li{display:flex;align-items:baseline;gap:11px;color:var(--muted);font:11px/1.5 Arial,sans-serif}.directory .num{font-size:9px;letter-spacing:.08em;opacity:.75}.directory li.current{color:var(--moss);font-weight:700}.directory .rule{height:1px;background:var(--line);flex:1;min-width:5px}.directory .dot{width:4px;height:4px;align-self:center;border-radius:50%;background:currentColor;opacity:.2}.directory .current .dot{opacity:1}
+.room-halo{fill:#dce5c1;stroke:#839768;stroke-width:2;opacity:0}.room.current .room-halo{opacity:1}.room.current .room-label{fill:#435537}.room-label{font-family:Georgia,serif;font-size:18px;fill:#73603f;letter-spacing:-.3px}.small-label{font:9px Arial,sans-serif;fill:#887351;letter-spacing:1px}
+footer{width:min(1120px,100%);margin:auto;padding:0 32px 25px;display:flex;align-items:center;gap:16px;font:10px/1.5 Arial,sans-serif;color:#897e68}footer::before{content:'';height:1px;background:var(--line);width:25px}
+@media(max-width:700px){main{grid-template-columns:1fr;gap:10px;padding:22px 16px 20px}.story{display:contents}.eyebrow{order:-3;margin:0 0 9px;font-size:9px}h1{order:-2;font-size:35px;margin:0 0 8px;max-width:310px}.intro{order:-1;font-size:13px;line-height:1.5;margin:0;max-width:290px}.scene{max-width:420px;width:100%;margin:0 auto}.caption{font-size:8px;margin-top:-2px}.stop{margin-top:8px;padding:14px 0 12px}.stop-name{font-size:24px}.stop-note{font-size:12px}.instruction{font-size:11px;margin-top:0}.directory{margin:8px 0 0;gap:6px}button{padding:14px 16px}footer{padding:0 16px 20px;font-size:9px}}
+@media(min-width:701px){main{min-height:calc(100vh - 55px)}}
+</style>
+</head>
+<body data-floor="1">
+<main>
+<div class="scene">
+<svg class="art" id="scene" viewBox="0 0 600 648" role="img" aria-labelledby="scene-title scene-description">
+<title id="scene-title">A little lift inside Morel House</title>
+<desc id="scene-description">An original imaginary mushroom cutaway with three visible rooms: Snail Mail Studio on floor 1, Moonjam Kitchen on floor 2, and Cloud Sock Loft on floor 3. One acorn courier rides one cabin in a continuous shaft. The cabin is currently at floor 1, Snail Mail Studio.</desc>
+<defs>
+ <pattern id="cap-dashes" patternUnits="userSpaceOnUse" width="30" height="25" patternTransform="rotate(-13)"><path d="M8 10h5M23 22h3" stroke="#923e2b" stroke-width="1.5" opacity=".26"/></pattern>
+ <pattern id="stem-lines" patternUnits="userSpaceOnUse" width="25" height="32"><path d="M4 1v17M17 18v10" stroke="#d8c6a2" stroke-width="1" opacity=".6"/></pattern>
+ <pattern id="wallpaper" patternUnits="userSpaceOnUse" width="18" height="18"><path d="M9 7v4M7 9h4" stroke="#d4c7a4" stroke-width=".8"/></pattern>
+ <pattern id="sock-stripes" patternUnits="userSpaceOnUse" width="4" height="9"><path d="M0 2h4" stroke="#b75a42" stroke-width="3"/></pattern>
+ <clipPath id="cap-clip"><path d="M67 178C77 112 138 42 238 27C343 9 436 45 501 102C534 130 549 153 549 177C546 202 66 208 67 178Z"/></clipPath>
+</defs>
+<!-- The garden stays still. Every shape belongs to this one cutaway. -->
+<path d="M60 593C123 566 454 565 550 595C566 607 83 621 60 593Z" fill="#e4e5cd"/>
+<path d="M41 599C86 589 125 606 157 595M451 601c36-17 57 2 99-7" fill="none" stroke="#acb98e" stroke-width="2" stroke-linecap="round"/>
+<g fill="none" stroke="#8a9c72" stroke-width="2" stroke-linecap="round"><path d="M81 590v-23m0 12-8-7m8 10 9-12M516 593v-26m0 12-8-6m8 14 8-11M110 594l-4-11M494 596l3-13"/></g>
+<g fill="#c69257"><ellipse cx="81" cy="565" rx="5" ry="3"/><ellipse cx="516" cy="565" rx="5" ry="3"/></g>
+<g opacity=".7" stroke="#a9ae91" stroke-width="1.4" fill="none"><path d="M74 251c8-5 13-5 20 0M503 252c8-5 13-5 20 0"/><path d="M94 270c5-4 9-4 13 0"/></g>
+<!-- The broad red cap shelters the entire stem. -->
+<path d="M194 180C204 274 194 482 180 556C174 584 248 603 324 603C410 603 494 584 483 553C468 482 462 276 472 180Z" fill="#edddba" stroke="#a08b65" stroke-width="2"/>
+<path d="M194 180C204 274 194 482 180 556C174 584 248 603 324 603C410 603 494 584 483 553C468 482 462 276 472 180Z" fill="url(#stem-lines)"/>
+<path d="M67 178C77 112 138 42 238 27C343 9 436 45 501 102C534 130 549 153 549 177C546 202 66 208 67 178Z" fill="#b95037" stroke="#783c2e" stroke-width="2.4"/>
+<path d="M67 178C77 112 138 42 238 27C343 9 436 45 501 102C534 130 549 153 549 177C546 202 66 208 67 178Z" fill="url(#cap-dashes)"/>
+<g clip-path="url(#cap-clip)" fill="#f2d9af" stroke="#d6b78b" stroke-width="1.3"><ellipse cx="148" cy="110" rx="26" ry="11" transform="rotate(-24 148 110)"/><ellipse cx="239" cy="66" rx="33" ry="13" transform="rotate(-7 239 66)"/><ellipse cx="364" cy="76" rx="28" ry="12" transform="rotate(13 364 76)"/><ellipse cx="458" cy="136" rx="27" ry="12" transform="rotate(27 458 136)"/><ellipse cx="286" cy="139" rx="24" ry="11"/><ellipse cx="96" cy="180" rx="23" ry="8"/><ellipse cx="391" cy="188" rx="24" ry="9"/></g>
+<path d="M87 176c92 10 356 13 443 0" stroke="#dc8259" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="308" cy="190" rx="234" ry="17" fill="#e5bb86" stroke="#8e6749" stroke-width="2"/>
+<g stroke="#b78a61" stroke-width="1.1"><path d="M92 186l40 11M132 182l32 18M174 180l26 21M222 180l19 23M268 180l7 24M312 180v25M358 180l-10 24M404 181l-23 21M450 181l-34 20M493 185l-43 14M526 187l-37 10"/></g>
+<!-- Exactly three floors, set into one stem. -->
+<path d="M214 212H386V558H214Z" fill="#f6eed8" stroke="#ad986e" stroke-width="2"/>
+<path d="M218 216H382V554H218Z" fill="url(#wallpaper)"/>
+<g id="floor-3" class="room" data-name="Cloud Sock Loft">
+ <rect class="room-halo" x="214" y="212" width="172" height="110"/>
+ <text class="room-label" x="225" y="236">Cloud Sock Loft</text>
+ <path d="M223 296h153v8H223Z" fill="#c6b086"/><path d="M226 302v7m140-7v7" stroke="#9a825d" stroke-width="2"/>
+ <path d="M233 250q61 15 133 1" fill="none" stroke="#8b7b58" stroke-width="1.5"/>
+ <path d="M259 256v17l-10 3v8h20v-28Z" fill="#f1d5a2" stroke="#a87a56" stroke-width="1.4"/><path d="M259 256v17l-10 3v8h20v-28Z" fill="url(#sock-stripes)"/>
+ <path d="M333 256v19l-10 4v7h20v-30Z" fill="#71917b" stroke="#526f5d" stroke-width="1.4"/><path d="M334 262h7m-7 8h7m-14 11h14" stroke="#b9cbad" stroke-width="2"/>
+ <path d="M292 282c-10 0-13-13-5-17c-3-12 16-20 23-8c10-5 17 7 13 13c8 10-3 17-11 14Z" fill="#fffcf0" stroke="#b8bfa4" stroke-width="1.7"/>
+ <path d="M298 274v3m9-3v3" stroke="#706f5c" stroke-width="1.8" stroke-linecap="round"/><path d="M300 281h6" stroke="#c8977a" stroke-width="1.3"/>
+ <path d="M286 292h40" stroke="#dbd8be" stroke-width="2" stroke-linecap="round"/><path d="M245 289v5m4-5v5" stroke="#a88661" stroke-width="1.5"/>
+ <text class="small-label" x="228" y="317">PLEASE DON'T RAIN</text>
+</g>
+<path d="M211 323h178v9H211Z" fill="#b39b74" stroke="#8d7654" stroke-width="1.3"/>
+<g id="floor-2" class="room" data-name="Moonjam Kitchen">
+ <rect class="room-halo" x="214" y="332" width="172" height="105"/>
+ <text class="room-label" x="225" y="357">Moonjam Kitchen</text>
+ <path d="M229 404h140v9H229Z" fill="#b1835c" stroke="#806747" stroke-width="1.4"/><path d="M235 413v15m128-15v15" stroke="#806747" stroke-width="4"/>
+ <path d="M234 370h127v4H234Z" fill="#bfa278"/><path d="M243 374v5m109-5v5" stroke="#8c7758" stroke-width="2"/>
+ <g stroke="#987a56" stroke-width="1.4"><path d="M244 390h20v12h-20Z" fill="#dfb8a0"/><path d="M247 387h14v4h-14Z" fill="#92775b"/><path d="M337 386h17v16h-17Z" fill="#f6e8b6"/><path d="M337 383h17v4h-17Z" fill="#8da17f"/></g>
+ <path d="M282 379h29v24h-29Z" fill="#f8eecb" stroke="#967752" stroke-width="1.8"/><path d="M280 376h33v5h-33Z" fill="#b2bf8c" stroke="#7f9468" stroke-width="1.5"/>
+ <path d="M303 385a10 10 0 1 0 0 15a8 8 0 0 1 0-15Z" fill="#d59f40"/><path d="M291 392l3 2m0-6 2 1" stroke="#f9eab5" stroke-width="1.4"/>
+ <path d="M288 403l2 9h14l2-9" fill="#faf1d2" stroke="#b19670" stroke-width="1.2"/><text x="293" y="409" font-size="5" font-family="Arial" fill="#7e6243">MOON</text>
+ <path d="M316 393l12-17" stroke="#977951" stroke-width="2.7" stroke-linecap="round"/><ellipse cx="329" cy="374" rx="3.3" ry="5" fill="#d3b68c" stroke="#977951" stroke-width="1.2" transform="rotate(35 329 374)"/>
+ <path d="M269 398h9" stroke="#a99467" stroke-width="2"/><path d="M246 422h8m88 0h11" stroke="#c2aa7c" stroke-width="2" stroke-linecap="round"/>
+ <text class="small-label" x="228" y="431">ONE SPOONFUL OF NIGHT</text>
+</g>
+<path d="M211 438h178v9H211Z" fill="#b39b74" stroke="#8d7654" stroke-width="1.3"/>
+<g id="floor-1" class="room current" data-name="Snail Mail Studio">
+ <rect class="room-halo" x="214" y="447" width="172" height="111"/>
+ <text class="room-label" x="225" y="473">Snail Mail Studio</text>
+ <path d="M229 524h140v8H229Z" fill="#9a754f" stroke="#765b3d" stroke-width="1.5"/><path d="M235 532v17m126-17v17" stroke="#7d6241" stroke-width="4"/>
+ <path d="M337 483h31v36h-31Z" fill="#c6ae83" stroke="#937956" stroke-width="1.4"/><path d="M337 495h31m-31 12h31m-21-24v36m10-36v36" stroke="#967e58" stroke-width="1"/>
+ <g fill="#f9f0d4" stroke="#bba078" stroke-width="1"><path d="M341 487h7v5h-7Z"/><path d="M352 499h12v5h-12Z"/><path d="M339 511h9v5h-9Z"/></g>
+ <path d="M277 499h29v22h-29Z" fill="#f9efcf" stroke="#b9996c" stroke-width="1.5"/><path d="M277 499l14 10 15-10" fill="none" stroke="#b9996c" stroke-width="1.3"/><rect x="300" y="502" width="4" height="5" fill="#b56445"/>
+ <path d="M242 523c3-9 10-8 20-7h9c-3 7-19 10-29 7Z" fill="#b2be81" stroke="#718057" stroke-width="1.6"/><path d="M260 518l1-12m3 13 5-13" fill="none" stroke="#718057" stroke-width="1.5"/><circle cx="261" cy="505" r="2" fill="#667650"/><circle cx="270" cy="505" r="2" fill="#667650"/>
+ <circle cx="247" cy="512" r="10" fill="#cf9c62" stroke="#886a46" stroke-width="1.6"/><path d="M247 507c7 0 7 10 0 10c-4 0-4-6 0-6" fill="none" stroke="#886a46" stroke-width="1.5"/>
+ <path d="M316 508v9h10v-9m-12 10h14v4h-14Z" fill="#b86446" stroke="#875943" stroke-width="1.3"/><path d="M320 508v-7h3v7" stroke="#875943" stroke-width="2"/>
+ <text class="small-label" x="228" y="552">EXPRESS: EVENTUALLY</text>
+</g>
+<!-- A single continuous shaft, never three disconnected door boxes. -->
+<rect id="shaft" x="388" y="213" width="62" height="345" rx="8" fill="#665e49" stroke="#75664d" stroke-width="2"/>
+<path d="M397 222v326m44-326v326" stroke="#b0a482" stroke-width="2"/>
+<path d="M415 214v342M423 214v342" stroke="#837b62" stroke-width="1"/>
+<path d="M388 323h-10m10 115h-10M388 556h-10" stroke="#9b845e" stroke-width="3"/>
+<g fill="#d1c3a0" font-family="Arial,sans-serif" font-size="9" text-anchor="middle"><text x="459" y="276">3</text><text x="459" y="391">2</text><text x="459" y="507">1</text></g>
+<g id="cabin" transform="translate(0 230)">
+ <path d="M419 248v10" stroke="#d0bf95" stroke-width="2"/>
+ <rect x="395" y="258" width="48" height="59" rx="5" fill="#cfaf73" stroke="#eadbb5" stroke-width="1.5"/>
+ <rect x="400" y="264" width="38" height="46" rx="2" fill="#efe0b6" stroke="#806744" stroke-width="1.3"/>
+ <path d="M404 307h30" stroke="#b19566" stroke-width="2"/>
+ <!-- One original acorn courier, and no second passenger. -->
+ <g id="passenger">
+  <path d="M412 292l-1 11m15-11 1 11" stroke="#6d6047" stroke-width="2" stroke-linecap="round"/>
+  <path d="M410 290q8-9 18 0l-2 10h-14Z" fill="#7d9470" stroke="#52694b" stroke-width="1.2"/>
+  <ellipse cx="419" cy="281" rx="8" ry="9" fill="#c99968" stroke="#866342" stroke-width="1.3"/>
+  <path d="M409 277q10-13 20 0Z" fill="#816849" stroke="#68553e" stroke-width="1.3"/><path d="M418 269l2-4" stroke="#68553e" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M415 281v2m8-2v2" stroke="#5d4d37" stroke-width="1.7" stroke-linecap="round"/><path d="M416 287h6" stroke="#976a4c" stroke-width="1"/>
+  <path d="M423 294h9v8h-9Z" fill="#f5e8c8" stroke="#a28b65" stroke-width="1"/><path d="M423 294l5 4 4-4" fill="none" stroke="#a28b65" stroke-width=".8"/>
+ </g>
+ <path d="M396 313h46v4h-46Z" fill="#bb9159"/>
+</g>
+<path d="M204 562h255v8H204Z" fill="#b8a17b" stroke="#8e7958" stroke-width="1.4"/>
+<path d="M275 590v-18h47v18" fill="#bd9367" stroke="#887250" stroke-width="1.4"/><path d="M299 574v14" stroke="#9d7b52"/><circle cx="294" cy="582" r="1.4" fill="#75613e"/><circle cx="304" cy="582" r="1.4" fill="#75613e"/>
+<path d="M258 601c5-8 18-11 38-11s37 3 45 11" fill="#d2c0a0" stroke="#a49477" stroke-width="1.3"/>
+<path d="M124 574v17M110 574h28" stroke="#8b7553" stroke-width="2"/><path d="M110 558h39v22h-39Z" fill="#e5d4ac" stroke="#8b7553" stroke-width="1.4" transform="rotate(-6 129 569)"/><text x="130" y="566" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#746041" transform="rotate(-6 129 569)">MOREL</text><text x="130" y="575" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#746041" transform="rotate(-6 129 569)">HOUSE</text>
+<path d="M465 577c-1-15 20-15 19 0Z" fill="#af7453" stroke="#906748" stroke-width="1.3"/><path d="M475 577v15" stroke="#a28f6a" stroke-width="3"/>
+<g fill="#d0d5b2"><path d="M195 591q-17-18-11-24q16 8 15 24Z"/><path d="M405 591q17-18 11-24q-16 8-15 24Z"/></g>
+<text x="307" y="633" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#8d8169" font-style="italic">Small journeys. Very good company.</text>
+</svg>
+<p class="caption">An imaginary mushroom building</p>
+</div>
+<section class="story" aria-label="Lift controls">
+<p class="eyebrow">Field notes from Morel House</p>
+<h1>A little lift.<br>Three <em>lovely stops.</em></h1>
+<p class="intro">An acorn courier has one letter to deliver, and absolutely no reason to hurry.</p>
+<div class="stop" role="status" aria-live="polite" aria-atomic="true">
+ <p class="stop-kicker" id="stop-number">Now at floor 1 of 3</p>
+ <p class="stop-name" id="stop-name">Snail Mail Studio</p>
+ <p class="stop-note" id="stop-note">Express delivery. At a snail's pace.</p>
+</div>
+<button type="button" id="next-stop"><span>Take the little lift<span class="sub" id="next-name">Next: floor 2 — Moonjam Kitchen</span></span><span class="arrow" aria-hidden="true">↟</span></button>
+<p class="instruction">Click once, or focus the button and press Enter or Space, to visit the next floor. The top returns to the bottom.</p>
+<ol class="directory" aria-label="The three rooms">
+ <li id="directory-3"><span class="num">03</span><span>Cloud Sock Loft</span><span class="rule"></span><span class="dot" aria-hidden="true"></span></li>
+ <li id="directory-2"><span class="num">02</span><span>Moonjam Kitchen</span><span class="rule"></span><span class="dot" aria-hidden="true"></span></li>
+ <li id="directory-1" class="current" aria-current="location"><span class="num">01</span><span>Snail Mail Studio</span><span class="rule"></span><span class="dot" aria-hidden="true"></span></li>
+</ol>
+</section>
+</main>
+<footer>Original miniature fantasy · One lift, one passenger, no rush</footer>
+<script>
+(() => {
+ 'use strict';
+ const stops = [
+  {name:'Snail Mail Studio',note:"Express delivery. At a snail's pace.",offset:230},
+  {name:'Moonjam Kitchen',note:'The moon is homemade. Please use a clean spoon.',offset:115},
+  {name:'Cloud Sock Loft',note:'A laundry day forecast: mostly socks.',offset:0}
+ ];
+ let current = 0;
+ const button = document.getElementById('next-stop');
+ function showStop() {
+  const stop = stops[current];
+  const floor = current + 1;
+  document.body.dataset.floor = String(floor);
+  document.getElementById('cabin').setAttribute('transform','translate(0 '+stop.offset+')');
+  document.getElementById('stop-number').textContent = 'Now at floor '+floor+' of 3';
+  document.getElementById('stop-name').textContent = stop.name;
+  document.getElementById('stop-note').textContent = stop.note;
+  const next = (current + 1) % stops.length;
+  document.getElementById('next-name').textContent = 'Next: floor '+(next+1)+' — '+stops[next].name;
+  document.getElementById('scene-description').textContent = 'An original imaginary mushroom cutaway with three visible rooms: Snail Mail Studio on floor 1, Moonjam Kitchen on floor 2, and Cloud Sock Loft on floor 3. One acorn courier rides one cabin in a continuous shaft. The cabin is currently at floor '+floor+', '+stop.name+'.';
+  stops.forEach((item,index) => {
+   const selected = index === current;
+   document.getElementById('floor-'+(index+1)).classList.toggle('current',selected);
+   const row = document.getElementById('directory-'+(index+1));
+   row.classList.toggle('current',selected);
+   if (selected) row.setAttribute('aria-current','location');
+   else row.removeAttribute('aria-current');
+  });
+ }
+ button.addEventListener('click',() => { current = (current + 1) % stops.length; showStop(); });
+ showStop();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">The secret fastenings of a feather</title>
+<desc id="art-desc">An original schematic pennaceous feather has a central rachis and two vanes. A marked patch is connected to an enlarged view: two barbs branch from the shaft, smaller barbules branch from each barb, and hooklets join neighbouring barbules. Three captions explain branching, interlocking, and the contrast with a loose downy region. Different scales are schematic, not measured.</desc>
+<metadata id="science-map"><![CDATA[{
+  "title": "The secret fastenings of a feather",
+  "originality": "Original vector geometry, layout and prose; no source illustration copied or traced.",
+  "sources": {
+    "Cornell": "https://academy.allaboutbirds.org/feathers-article/",
+    "AMNH": "https://www.amnh.org/research/science-conservation/material-type/feathers-and-fur/composition-structure"
+  },
+  "claim_mapping": [
+    {
+      "caption": 1,
+      "source": "Cornell",
+      "support": "Feather anatomy section describes a central rachis branching into barbs, then barbules."
+    },
+    {
+      "caption": 2,
+      "sources": [
+        "Cornell",
+        "AMNH"
+      ],
+      "support": "Pennaceous regions have interlocking barbules; microscopic hooklets enable connections between adjacent barbules."
+    },
+    {
+      "caption": 3,
+      "sources": [
+        "Cornell",
+        "AMNH"
+      ],
+      "support": "Downy/plumulaceous regions are loose and non-interlocking; both structured and downy regions can occur on one feather."
+    }
+  ],
+  "drawing_notes": "A schematic pennaceous feather with two vanes and an enlarged marked patch. The purple barbules have hooklets; the teal receiving barbules do not all have hooks. The diagram simplifies attachment geometry, uses differing scales and is not a measured reconstruction.",
+  "sources_accessed_utc": "2026-10-01",
+  "caption_word_counts": [
+    24,
+    21,
+    22
+  ]
+}]]></metadata>
+<defs><style>text{font-family:"Segoe UI",Arial,sans-serif;fill:#243b3c}.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px}.label{font-size:21px;font-weight:650}.tiny{font-size:15px}.caption{font-size:19px}.lead{fill:none;stroke:#6a8580;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+<rect width="1000" height="1060" fill="#f6f3e9"/>
+<text class="eyebrow" x="40" y="45">SMALL STRUCTURES / QUIET CONNECTIONS</text>
+<text x="40" y="106" font-size="47" font-weight="750" letter-spacing="-1.6">The secret fastenings of a feather</text>
+<text x="42" y="144" font-size="19">A whole vane. A branching hierarchy. Tiny connections that hold.</text>
+<line x1="40" y1="169" x2="960" y2="169" stroke="#c5d2c9"/>
+<rect x="40" y="192" width="352" height="538" rx="24" fill="#e4eee7"/>
+<text class="eyebrow" x="62" y="225">THE WHOLE FEATHER</text>
+<path d="M208 252 C126 294 68 380 82 504 Q95 584 196 652 L213 660 Q319 602 340 492 C366 377 299 290 208 252Z" fill="#b8d1c0"/>
+<path d="M208 252 Q190 440 206 660" fill="none" stroke="#365d5a" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M206 660 L211 689" stroke="#a48362" stroke-width="8" stroke-linecap="round"/>
+<defs><clipPath id="vane-shape"><path d="M208 252 C126 294 68 380 82 504 Q95 584 196 652 L213 660 Q319 602 340 492 C366 377 299 290 208 252Z"/></clipPath></defs><g clip-path="url(#vane-shape)">
+<path d="M201.2 304 Q162.4 294 123.6 260" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.2 304 Q240.1 294 278.9 260" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.6 320 Q157.0 310 112.3 276" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.6 320 Q246.2 310 290.8 276" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.9 336 Q152.1 326 102.4 292" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.9 336 Q251.6 326 301.4 292" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.1 352 Q147.9 342 93.7 308" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.1 352 Q256.3 342 310.6 308" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.4 368 Q144.4 358 86.4 324" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.4 368 Q260.4 358 318.4 324" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.6 384 Q141.4 374 80.3 340" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.6 384 Q263.7 374 324.8 340" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.7 400 Q139.1 390 75.5 356" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.7 400 Q266.3 390 329.9 356" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.8 416 Q137.5 406 72.1 372" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.8 416 Q268.2 406 333.6 372" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.9 432 Q136.4 422 69.9 388" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.9 432 Q269.5 422 336.0 388" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 448 Q136.0 438 69.0 404" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 448 Q270.0 438 337.0 404" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 464 Q136.2 454 69.4 420" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 464 Q269.8 454 336.6 420" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 480 Q137.1 470 71.1 436" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M203.0 480 Q268.9 470 334.8 436" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.9 496 Q138.5 486 74.1 452" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.9 496 Q267.3 486 331.7 452" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.8 512 Q140.6 502 78.5 468" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.8 512 Q265.0 502 327.2 468" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.7 528 Q143.4 518 84.1 484" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.7 528 Q262.1 518 321.4 484" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.6 544 Q146.8 534 91.0 500" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.6 544 Q258.4 534 314.2 500" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.4 560 Q150.8 550 99.1 516" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.4 560 Q254.0 550 305.6 516" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.1 576 Q155.4 566 108.6 532" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M202.1 576 Q248.9 566 295.6 532" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.9 592 Q160.7 582 119.4 548" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.9 592 Q243.1 582 284.3 548" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.6 608 Q166.5 598 131.5 564" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.6 608 Q236.6 598 271.7 564" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.2 624 Q173.1 614 144.9 580" fill="none" stroke="#5e8c81" stroke-width="2"/>
+<path d="M201.2 624 Q229.4 614 257.6 580" fill="none" stroke="#5e8c81" stroke-width="2"/>
+</g><text class="tiny" x="70" y="578">left vane</text><text class="tiny" x="279" y="568">right vane</text>
+<path class="lead" d="M76 584 L110 566 M307 574 L300 557"/>
+<rect x="195" y="387" width="93" height="46" rx="7" fill="#f6f3e9" fill-opacity=".55" stroke="#bd8057" stroke-width="2.5"/>
+<path d="M288 388 C356 329 383 274 430 277 M288 432 C359 509 383 641 430 648" fill="none" stroke="#bd8057" stroke-width="1.6" stroke-dasharray="6 6"/>
+<text class="label" x="65" y="707">shaft (rachis)</text><path class="lead" d="M212 694 L226 677 L211 579"/>
+<rect x="430" y="192" width="530" height="538" rx="24" fill="#ffffff" stroke="#c5d2c9"/>
+<text class="eyebrow" x="452" y="225">THE MARKED PATCH, ENLARGED</text>
+<path d="M472 266 L472 655" stroke="#365d5a" stroke-width="12" stroke-linecap="round"/>
+<path d="M472 381 L909 306 M472 556 L909 481" fill="none" stroke="#9b6949" stroke-width="7" stroke-linecap="round"/>
+<path d="M530 371.05 L562 458.55" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M542 544.00 L566 461.55 Q569 453.55 563 451.55 Q557 450.55 555 456.55" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M530 371.05 L545 332.05 M542 544.00 L559 584.05" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<path d="M590 360.75 L622 448.25" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M602 533.70 L626 451.25 Q629 443.25 623 441.25 Q617 440.25 615 446.25" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M590 360.75 L605 321.75 M602 533.70 L619 573.75" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<path d="M650 350.45 L682 437.95" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M662 523.40 L686 440.95 Q689 432.95 683 430.95 Q677 429.95 675 435.95" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M650 350.45 L665 311.45 M662 523.40 L679 563.45" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<path d="M710 340.15 L742 427.65" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M722 513.10 L746 430.65 Q749 422.65 743 420.65 Q737 419.65 735 425.65" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M710 340.15 L725 301.15 M722 513.10 L739 553.15" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<path d="M770 329.86 L802 417.36" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M782 502.81 L806 420.36 Q809 412.36 803 410.36 Q797 409.36 795 415.36" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M770 329.86 L785 290.86 M782 502.81 L799 542.86" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<path d="M830 319.56 L862 407.06" fill="none" stroke="#438e8c" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M842 492.51 L866 410.06 Q869 402.06 863 400.06 Q857 399.06 855 405.06" fill="none" stroke="#865c88" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M830 319.56 L845 280.56 M842 492.51 L859 532.56" fill="none" stroke="#9ba89c" stroke-width="2" stroke-linecap="round"/>
+<text class="label" x="733" y="276">barb</text><path class="lead" d="M767 284 L777 328"/>
+<text class="label" x="557" y="292">barbule</text><path class="lead" d="M602 302 L602 392"/>
+<ellipse cx="801" cy="411" rx="20" ry="17" fill="none" stroke="#bd8057" stroke-width="2"/>
+<text class="label" x="770" y="620">hooklet</text><path class="lead" d="M803 598 L842 563 L802 427"/>
+<text class="tiny" x="498" y="682">TEAL: receiving barbules</text>
+<text class="tiny" x="498" y="708" fill="#865c88">PURPLE: barbules with hooklets</text>
+<text class="tiny" x="42" y="757">Simplified schematic at different scales; not a measured reconstruction.</text>
+<rect x="40" y="783" width="295" height="234" rx="16" fill="#e4eee7"/>
+<text class="eyebrow" x="57" y="812">01 / BRANCH</text>
+<text id="caption-1" class="caption" x="57" y="845">
+<tspan x="57" dy="0">A sturdy rachis supports</tspan>
+<tspan x="57" dy="24">the vanes. Barbs extend</tspan>
+<tspan x="57" dy="24">from this shaft, and finer</tspan>
+<tspan x="57" dy="24">barbules branch from those</tspan>
+<tspan x="57" dy="24">barbs: a hierarchy of</tspan>
+<tspan x="57" dy="24">increasingly delicate</tspan>
+<tspan x="57" dy="24">parts.</tspan>
+</text>
+<rect x="353" y="783" width="295" height="234" rx="16" fill="#ece6ef"/>
+<text class="eyebrow" x="370" y="812">02 / CONNECT</text>
+<text id="caption-2" class="caption" x="370" y="845">
+<tspan x="370" dy="0">In a pennaceous region,</tspan>
+<tspan x="370" dy="24">small hooklets on some</tspan>
+<tspan x="370" dy="24">barbules engage</tspan>
+<tspan x="370" dy="24">neighbouring barbules.</tspan>
+<tspan x="370" dy="24">These connections help</tspan>
+<tspan x="370" dy="24">adjacent barbs form a</tspan>
+<tspan x="370" dy="24">coherent vane.</tspan>
+</text>
+<rect x="666" y="783" width="295" height="234" rx="16" fill="#f1e6d8"/>
+<text class="eyebrow" x="683" y="812">03 / COMPARE</text>
+<text id="caption-3" class="caption" x="683" y="845">
+<tspan x="683" dy="0">A downy region has a</tspan>
+<tspan x="683" dy="24">looser, non-interlocking</tspan>
+<tspan x="683" dy="24">arrangement. Many feathers</tspan>
+<tspan x="683" dy="24">combine structured and</tspan>
+<tspan x="683" dy="24">fluffy regions; this</tspan>
+<tspan x="683" dy="24">drawing focuses on a</tspan>
+<tspan x="683" dy="24">pennaceous example.</tspan>
+</text>
+<text class="tiny" x="42" y="1045">Original illustration · Sources and individual claim mappings embedded in SVG metadata</text></svg>

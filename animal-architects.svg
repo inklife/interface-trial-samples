@@ -1,0 +1,390 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1510" viewBox="0 0 1000 1510" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">Five Animal Architects, Five Building Materials</title>
+<desc id="art-desc">An illustrated atlas compares five real animal builders: a beaver's wooden and muddy lodge, a paper wasp's wood-and-saliva comb, a swallow's mud cup, a weaverbird's grass nest, and a honey bee's secreted wax comb. Material origins, original captions and institutional source mappings accompany each schematic. Drawings are not to scale.</desc>
+<metadata id="scientific-source-map">{
+  &quot;title&quot;: &quot;Five Animal Architects, Five Building Materials&quot;,
+  &quot;creator&quot;: &quot;Original vector artwork by Inklife with Codex assistance; no copied illustrations or prose.&quot;,
+  &quot;checked_at&quot;: &quot;2026-10-01&quot;,
+  &quot;sources&quot;: {
+    &quot;beaver&quot;: {
+      &quot;institution&quot;: &quot;Virginia Tech / Virginia Cooperative Extension&quot;,
+      &quot;url&quot;: &quot;https://www.pubs.ext.vt.edu/420/420-202/420-202.html&quot;,
+      &quot;section&quot;: &quot;Biology and Behavior&quot;,
+      &quot;claim&quot;: &quot;Castor canadensis constructs dome-like lodges from gathered sticks, brush, rocks and mud; entrances are underwater. Wood and mud are principal examples, not an exhaustive bill of materials.&quot;,
+      &quot;supplementary_url&quot;: &quot;https://nationalzoo.si.edu/animals/beaver&quot;,
+      &quot;supplementary_institution&quot;: &quot;Smithsonian National Zoo and Conservation Biology Institute&quot;,
+      &quot;supplementary_section&quot;: &quot;Native Habitat&quot;,
+      &quot;supplementary_claim&quot;: &quot;The lodge living quarters are above the water line, directly supporting the chamber position shown in the original cutaway and stated in the caption.&quot;
+    },
+    &quot;wasp&quot;: {
+      &quot;institution&quot;: &quot;University of California Agriculture and Natural Resources&quot;,
+      &quot;url&quot;: &quot;https://ucanr.edu/blog/bug-squad/article/wasp-love-pollinators-artists-and-biocontrol-experts&quot;,
+      &quot;section&quot;: &quot;Polistes dominula nest example; open umbrella nest description; item 7&quot;,
+      &quot;claim&quot;: &quot;European paper wasps construct exposed-celled paper combs on a stalk, often beneath an overhang; collected tree fibres and animal-produced saliva form their paper.&quot;
+    },
+    &quot;swallow&quot;: {
+      &quot;institution&quot;: &quot;Cornell Lab of Ornithology&quot;,
+      &quot;url&quot;: &quot;https://www.allaboutbirds.org/guide/Barn_Swallow/lifehistory&quot;,
+      &quot;section&quot;: &quot;Nest Description; Credits identifies Hirundo rustica&quot;,
+      &quot;claim&quot;: &quot;Barn Swallow pairs collect mud, often mix grass stems into pellets, form a cup, and line it with grass and feathers; vertical-wall cups may be semicircular.&quot;
+    },
+    &quot;weaver&quot;: {
+      &quot;institution&quot;: &quot;Biodiversity Explorer, an Iziko Museums of South Africa website&quot;,
+      &quot;url&quot;: &quot;https://www.biodiversityexplorer.info/birds/ploceidae/ploceus_cucullatus.htm&quot;,
+      &quot;section&quot;: &quot;Breeding&quot;,
+      &quot;claim&quot;: &quot;Village Weaver Ploceus cucullatus males weave hanging nests from green reed, grass-leaf or palm strips; entrance is on the underside; females add soft grass heads and feathers. Illustration shows a representative grass nest, not every material option.&quot;
+    },
+    &quot;bee&quot;: {
+      &quot;institution&quot;: &quot;University of Michigan Museum of Zoology / Animal Diversity Web&quot;,
+      &quot;url&quot;: &quot;https://animaldiversity.org/accounts/Apis_mellifera/&quot;,
+      &quot;section&quot;: &quot;Development; Behavior; Predation&quot;,
+      &quot;claim&quot;: &quot;Apis mellifera workers secrete wax and construct hexagonal comb cells used for larvae and food; nest sealing also uses collected resins in propolis. The drawn comb is constructed by bees; the surrounding natural cavity is context, not claimed as bee-built.&quot;
+    }
+  },
+  &quot;entry_source_mapping&quot;: [
+    {
+      &quot;entry_id&quot;: &quot;entry-1&quot;,
+      &quot;species&quot;: &quot;Castor canadensis&quot;,
+      &quot;common_name&quot;: &quot;North American beaver&quot;,
+      &quot;structure&quot;: &quot;Lodge&quot;,
+      &quot;materials&quot;: &quot;Collected branches, sticks and mud; other materials may also occur&quot;,
+      &quot;source&quot;: &quot;beaver&quot;,
+      &quot;caption_words&quot;: 28
+    },
+    {
+      &quot;entry_id&quot;: &quot;entry-2&quot;,
+      &quot;species&quot;: &quot;Polistes dominula&quot;,
+      &quot;common_name&quot;: &quot;European paper wasp&quot;,
+      &quot;structure&quot;: &quot;Open paper comb nest&quot;,
+      &quot;materials&quot;: &quot;Both: collected wood fibres plus produced saliva&quot;,
+      &quot;source&quot;: &quot;wasp&quot;,
+      &quot;caption_words&quot;: 29
+    },
+    {
+      &quot;entry_id&quot;: &quot;entry-3&quot;,
+      &quot;species&quot;: &quot;Hirundo rustica&quot;,
+      &quot;common_name&quot;: &quot;Barn Swallow&quot;,
+      &quot;structure&quot;: &quot;Mud cup nest&quot;,
+      &quot;materials&quot;: &quot;Collected mud, grass stems and feathers&quot;,
+      &quot;source&quot;: &quot;swallow&quot;,
+      &quot;caption_words&quot;: 30
+    },
+    {
+      &quot;entry_id&quot;: &quot;entry-4&quot;,
+      &quot;species&quot;: &quot;Ploceus cucullatus&quot;,
+      &quot;common_name&quot;: &quot;Village Weaver&quot;,
+      &quot;structure&quot;: &quot;Woven hanging nest&quot;,
+      &quot;materials&quot;: &quot;Collected grass or leaf strips; soft grass and feather lining&quot;,
+      &quot;source&quot;: &quot;weaver&quot;,
+      &quot;caption_words&quot;: 29
+    },
+    {
+      &quot;entry_id&quot;: &quot;entry-5&quot;,
+      &quot;species&quot;: &quot;Apis mellifera&quot;,
+      &quot;common_name&quot;: &quot;Western honey bee&quot;,
+      &quot;structure&quot;: &quot;Wax comb in a nest cavity&quot;,
+      &quot;materials&quot;: &quot;Produced wax; collected resins also used elsewhere in the nest&quot;,
+      &quot;source&quot;: &quot;bee&quot;,
+      &quot;caption_words&quot;: 31
+    }
+  ],
+  &quot;material_origin_key&quot;: {
+    &quot;C&quot;: &quot;Collected from surroundings&quot;,
+    &quot;P&quot;: &quot;Produced by the animal&quot;,
+    &quot;C+P&quot;: &quot;Both origins&quot;
+  },
+  &quot;schematic_note&quot;: &quot;Original schematic drawings, not to scale; selected materials and representative structures are shown. Nest choices vary.&quot;
+}</metadata>
+<defs><style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#203d34}
+.kicker{font-size:12px;font-weight:700;letter-spacing:2.1px}
+.headline{font-family:Georgia,'Times New Roman',serif;font-size:52px;letter-spacing:-1.5px}
+.sub{font-size:19px;fill:#647568}
+.name{font-size:22px;font-weight:700;letter-spacing:-.35px}
+.latin{font-size:15px;font-style:italic;fill:#647568}
+.label{font-size:13px;font-weight:700;letter-spacing:.7px}
+.caption{font-size:17px;fill:#203d34}
+.tiny{font-size:12px;fill:#647568}
+.body{font-size:15px}
+.note{font-size:16px}
+.illustrated-entry{fill:none}
+</style>
+<pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="7" r=".6" fill="#203d34" opacity=".05"/><circle cx="15" cy="15" r=".45" fill="#203d34" opacity=".05"/></pattern>
+<clipPath id="lodge-clip"><path d="M72 156 Q83 57 187 49 Q294 49 337 155Z"/></clipPath>
+<clipPath id="weaver-clip"><path d="M130 50 C204 18 282 60 272 137 C266 181 208 189 160 156 C119 128 104 93 130 50Z"/></clipPath>
+<clipPath id="comb-clip"><path d="M87 42 Q182 12 256 55 L253 176 Q183 218 92 175Z"/></clipPath>
+</defs>
+<rect width="1000" height="1510" fill="#f7f2e8"/><rect width="1000" height="1510" fill="url(#grain)"/>
+<path d="M36 150H964" stroke="#203d34" stroke-width="1" opacity=".25"/>
+
+<text x="36" y="36" class="kicker" >A SMALL ATLAS OF BUILT HOMES</text>
+<text x="34" y="97" class="headline" >Five Animal Architects</text>
+<text x="37" y="130" class="sub" >Five species. Five ways to turn a material into a home.</text>
+<text x="741" y="37" class="kicker" >FIELD NOTES  /  01</text>
+<text x="36" y="176" class="label" >MATERIAL ORIGIN</text>
+<circle cx="201" cy="171" r="5" fill="#789866"/><text x="214" y="176" class="body" >C  Collected</text>
+<circle cx="350" cy="171" r="5" fill="#e2ae4f"/><text x="363" y="176" class="body" >P  Produced</text>
+<circle cx="505" cy="171" r="5" fill="#839490"/><text x="518" y="176" class="body" >C + P  Both</text>
+<text x="744" y="176" class="tiny" >ILLUSTRATIONS NOT TO SCALE</text>
+<g id="entry-1" class="illustrated-entry" transform="translate(36 202)">
+<rect width="452" height="432" rx="19" fill="#fffcf6" stroke="#203d34" stroke-opacity=".13"/>
+<rect width="452" height="7" rx="3.5" fill="#926346"/>
+<text x="22" y="37" class="kicker" >01</text>
+<text x="59" y="38" class="name" >North American beaver</text>
+<text x="59" y="60" class="latin" >Castor canadensis</text>
+<g transform="translate(22 73)">
+<rect x="0" y="0" width="408" height="184" rx="12" fill="#eef3ef"/>
+<path d="M0 153 Q40 144 80 153T160 153T240 153T320 153T408 153V184H0Z" fill="#bdd8d4"/>
+<path d="M72 156 Q83 57 187 49 Q294 49 337 155Z" fill="#926346"/>
+<g clip-path="url(#lodge-clip)" stroke-linecap="round">
+<path d="M58 160l55 -93" stroke="#c58b65" stroke-width="8"/>
+<path d="M76 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M94 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M112 160l55 -93" stroke="#c58b65" stroke-width="8"/>
+<path d="M130 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M148 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M166 160l55 -93" stroke="#c58b65" stroke-width="8"/>
+<path d="M184 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M202 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M220 160l55 -93" stroke="#c58b65" stroke-width="8"/>
+<path d="M238 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M256 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M274 160l55 -93" stroke="#c58b65" stroke-width="8"/>
+<path d="M292 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M310 160l55 -93" stroke="#b78962" stroke-width="6"/>
+<path d="M108 93q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M149 65q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M208 81q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M238 117q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M82 141q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M299 147q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M167 147q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+<path d="M257 148q17 -18 31 0q-14 10 -31 0" fill="#c58b65" stroke="none"/>
+</g><path d="M138 155V115Q187 81 247 114V155Z" fill="#f7f2e8"/>
+<path d="M242 135Q260 139 271 153T293 171" fill="none" stroke="#f7f2e8" stroke-width="18"/>
+<path d="M0 154H408" stroke="#5b918b" stroke-width="2"/>
+<path d="M116 174H218M12 164h53M302 174h62" stroke="#8fbab4" stroke-width="2" stroke-linecap="round"/>
+<text x="177" y="130" class="tiny" text-anchor="middle">dry chamber</text>
+<path d="M283 180l23 -15" stroke="#5b7167" stroke-width="1.2"/>
+<text x="298" y="181" class="tiny" >entry</text>
+<g transform="translate(11 89)" fill="#203d34"><ellipse cx="30" cy="34" rx="28" ry="18" transform="rotate(30 30 34)"/><ellipse cx="57" cy="23" rx="32" ry="23"/><ellipse cx="85" cy="13" rx="16" ry="14"/><circle cx="88" cy="0" r="6"/><path d="M53 40l3 9h20v-7M77 32l3 9h15v-6"/><circle cx="92" cy="10" r="2" fill="#f7f2e8"/><path d="M99 19h4v7h-4" fill="#e2ae4f"/></g>
+</g>
+<circle cx="26" cy="283" r="5" fill="#926346"/>
+<text x="39" y="288" class="label" >LODGE  /  WOOD + MUD</text>
+<text x="22" y="310" class="body" >Branches and mud collected; other material may occur.</text>
+<rect x="372" y="271" width="58" height="23" rx="11.5" fill="#926346" fill-opacity=".14"/>
+<text x="401" y="287" class="label" text-anchor="middle">C</text>
+<text x="22" y="342" class="caption" id="caption-1"><tspan x="22" dy="0">A beaver can pile collected branches, sticks</tspan><tspan x="22" dy="24">and mud into a domed lodge. The shelter&#x27;s</tspan><tspan x="22" dy="24">chamber sits above water, while an underwater</tspan><tspan x="22" dy="24">entrance connects it to the pond.</tspan></text>
+</g>
+<g id="entry-2" class="illustrated-entry" transform="translate(512 202)">
+<rect width="452" height="432" rx="19" fill="#fffcf6" stroke="#203d34" stroke-opacity=".13"/>
+<rect width="452" height="7" rx="3.5" fill="#839490"/>
+<text x="22" y="37" class="kicker" >02</text>
+<text x="59" y="38" class="name" >European paper wasp</text>
+<text x="59" y="60" class="latin" >Polistes dominula</text>
+<g transform="translate(22 73)"><rect width="408" height="184" rx="12" fill="#eef1f0"/><path d="M20 20H388" stroke="#c9d3ce" stroke-width="13" stroke-linecap="round"/><path d="M199 26v35" stroke="#839490" stroke-width="8"/>
+<path d="M98 97Q120 58 194 58Q264 58 291 96L282 142Q219 174 111 143Z" fill="#839490"/>
+<polygon points="148.99,90.50 136.00,98.00 123.01,90.50 123.01,75.50 136.00,68.00 148.99,75.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="142.93,87.00 136.00,91.00 129.07,87.00 129.07,79.00 136.00,75.00 142.93,79.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="174.99,90.50 162.00,98.00 149.01,90.50 149.01,75.50 162.00,68.00 174.99,75.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="168.93,87.00 162.00,91.00 155.07,87.00 155.07,79.00 162.00,75.00 168.93,79.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="200.99,90.50 188.00,98.00 175.01,90.50 175.01,75.50 188.00,68.00 200.99,75.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="194.93,87.00 188.00,91.00 181.07,87.00 181.07,79.00 188.00,75.00 194.93,79.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="226.99,90.50 214.00,98.00 201.01,90.50 201.01,75.50 214.00,68.00 226.99,75.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="220.93,87.00 214.00,91.00 207.07,87.00 207.07,79.00 214.00,75.00 220.93,79.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="252.99,90.50 240.00,98.00 227.01,90.50 227.01,75.50 240.00,68.00 252.99,75.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="246.93,87.00 240.00,91.00 233.07,87.00 233.07,79.00 240.00,75.00 246.93,79.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="135.99,113.50 123.00,121.00 110.01,113.50 110.01,98.50 123.00,91.00 135.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="129.93,110.00 123.00,114.00 116.07,110.00 116.07,102.00 123.00,98.00 129.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="161.99,113.50 149.00,121.00 136.01,113.50 136.01,98.50 149.00,91.00 161.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="155.93,110.00 149.00,114.00 142.07,110.00 142.07,102.00 149.00,98.00 155.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="187.99,113.50 175.00,121.00 162.01,113.50 162.01,98.50 175.00,91.00 187.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="181.93,110.00 175.00,114.00 168.07,110.00 168.07,102.00 175.00,98.00 181.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="213.99,113.50 201.00,121.00 188.01,113.50 188.01,98.50 201.00,91.00 213.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="207.93,110.00 201.00,114.00 194.07,110.00 194.07,102.00 201.00,98.00 207.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="239.99,113.50 227.00,121.00 214.01,113.50 214.01,98.50 227.00,91.00 239.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="233.93,110.00 227.00,114.00 220.07,110.00 220.07,102.00 227.00,98.00 233.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="265.99,113.50 253.00,121.00 240.01,113.50 240.01,98.50 253.00,91.00 265.99,98.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="259.93,110.00 253.00,114.00 246.07,110.00 246.07,102.00 253.00,98.00 259.93,102.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="148.99,136.50 136.00,144.00 123.01,136.50 123.01,121.50 136.00,114.00 148.99,121.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="142.93,133.00 136.00,137.00 129.07,133.00 129.07,125.00 136.00,121.00 142.93,125.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="174.99,136.50 162.00,144.00 149.01,136.50 149.01,121.50 162.00,114.00 174.99,121.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="168.93,133.00 162.00,137.00 155.07,133.00 155.07,125.00 162.00,121.00 168.93,125.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="200.99,136.50 188.00,144.00 175.01,136.50 175.01,121.50 188.00,114.00 200.99,121.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="194.93,133.00 188.00,137.00 181.07,133.00 181.07,125.00 188.00,121.00 194.93,125.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="226.99,136.50 214.00,144.00 201.01,136.50 201.01,121.50 214.00,114.00 226.99,121.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="220.93,133.00 214.00,137.00 207.07,133.00 207.07,125.00 214.00,121.00 220.93,125.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<polygon points="252.99,136.50 240.00,144.00 227.01,136.50 227.01,121.50 240.00,114.00 252.99,121.50" fill="#cbd5cc" stroke="#65817a" stroke-width="2"/>
+<polygon points="246.93,133.00 240.00,137.00 233.07,133.00 233.07,125.00 240.00,121.00 246.93,125.00" fill="#416056" stroke="#65817a" stroke-width="0.5"/>
+<text x="292" y="157" class="tiny" >open cells</text>
+<path d="M286 149l-25 -18" stroke="#647568" stroke-width="1.2"/>
+<g transform="translate(25 113) rotate(-14 37 17)"><g fill="#adccc3" stroke="#203d34" stroke-width="1.2"><path d="M28 17Q3 -19 5 -25Q31 -19 36 14Z"/><path d="M34 19Q13 -8 16 -13Q38 -5 39 16Z"/><path d="M37 13Q55 -18 68 -19Q65 0 42 17Z"/></g><g fill="#203d34"><ellipse cx="14" cy="21" rx="9" ry="8"/><ellipse cx="32" cy="22" rx="10" ry="9"/><path d="M41 22l11 -3v7l-11 -1"/><path d="M50 18Q85 11 90 27Q77 43 51 30Z"/></g><path d="M60 18l4 15M73 17l4 16" stroke="#e2ae4f" stroke-width="5"/><g stroke="#203d34" stroke-width="2" fill="none" stroke-linecap="round"><path d="M23 28l-6 14 8 7M32 31l4 19 10 4M39 27l15 16 13 -2M24 15l-6 -8 -8 -2M33 15l6 -8 13 2M38 18l15 -3 11 -11M9 14L4 6M12 13l4 -8"/></g></g>
+</g>
+<circle cx="26" cy="283" r="5" fill="#839490"/>
+<text x="39" y="288" class="label" >PAPER COMB  /  WOOD + SALIVA</text>
+<text x="22" y="310" class="body" >Collected fibres mixed with produced saliva.</text>
+<rect x="372" y="271" width="58" height="23" rx="11.5" fill="#839490" fill-opacity=".14"/>
+<text x="401" y="287" class="label" text-anchor="middle">C + P</text>
+<text x="22" y="342" class="caption" id="caption-2"><tspan x="22" dy="0">This wasp chews collected wood fibres and adds</tspan><tspan x="22" dy="24">its own saliva, making papery pulp. It shapes</tspan><tspan x="22" dy="24">the mixture into an open comb of cells,</tspan><tspan x="22" dy="24">suspended beneath a protective overhang.</tspan></text>
+</g>
+<g id="entry-3" class="illustrated-entry" transform="translate(36 656)">
+<rect width="452" height="432" rx="19" fill="#fffcf6" stroke="#203d34" stroke-opacity=".13"/>
+<rect width="452" height="7" rx="3.5" fill="#c58b65"/>
+<text x="22" y="37" class="kicker" >03</text>
+<text x="59" y="38" class="name" >Barn Swallow</text>
+<text x="59" y="60" class="latin" >Hirundo rustica</text>
+<g transform="translate(22 73)"><rect width="408" height="184" rx="12" fill="#f5ece0"/><path d="M76 25H387v18H88v118H76Z" fill="#c6b99c"/><path d="M92 87Q170 103 234 84Q224 170 156 169Q94 158 92 87Z" fill="#c58b65"/>
+<ellipse cx="163" cy="88" rx="71" ry="17" fill="#789866"/><ellipse cx="163" cy="90" rx="54" ry="11" fill="#4e6743"/>
+<path d="M99 111q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M126 113q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M154 116q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M186 111q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M210 112q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M105 133q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M140 136q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M173 132q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M199 130q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M120 154q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M155 154q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M183 150q10 -9 19 1" stroke="#a06b4c" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M106 104l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M138 118l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M165 102l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M193 134l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M126 148l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M159 145l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<path d="M213 111l13 7" stroke="#d4cb92" stroke-width="2" stroke-linecap="round"/>
+<g stroke="#e9e0c6" stroke-width="2" fill="none"><path d="M134 84q-7 -14 -1 -22q10 12 1 22M178 84q7 -18 14 -19q-1 14 -14 19"/></g>
+<g transform="translate(279 59)"><path d="M30 47Q16 21 0 18L25 5Q42 26 44 37Q50 12 87 4L60 44Q53 54 43 58L59 90 35 73 13 92 24 63Q11 68 7 55Z" fill="#203d34"/><path d="M13 48q12 -1 17 10l-8 7Q13 64 7 55Z" fill="#c58b65"/><circle cx="14" cy="51" r="2" fill="#f7f2e8"/><path d="M8 56L0 54l8 -4" fill="#926346"/></g>
+<text x="254" y="162" class="tiny" >wall-mounted cup</text>
+</g>
+<circle cx="26" cy="283" r="5" fill="#c58b65"/>
+<text x="39" y="288" class="label" >CUP NEST  /  MUD + GRASS</text>
+<text x="22" y="310" class="body" >Collected mud and stems; grass and feather lining.</text>
+<rect x="372" y="271" width="58" height="23" rx="11.5" fill="#c58b65" fill-opacity=".14"/>
+<text x="401" y="287" class="label" text-anchor="middle">C</text>
+<text x="22" y="342" class="caption" id="caption-3"><tspan x="22" dy="0">A pair may mould collected mud into a cup, often</tspan><tspan x="22" dy="24">reinforcing it with grass stems. Grass and</tspan><tspan x="22" dy="24">feathers soften the lining; the finished nest</tspan><tspan x="22" dy="24">can rest against a sheltered wall.</tspan></text>
+</g>
+<g id="entry-4" class="illustrated-entry" transform="translate(512 656)">
+<rect width="452" height="432" rx="19" fill="#fffcf6" stroke="#203d34" stroke-opacity=".13"/>
+<rect width="452" height="7" rx="3.5" fill="#789866"/>
+<text x="22" y="37" class="kicker" >04</text>
+<text x="59" y="38" class="name" >Village Weaver</text>
+<text x="59" y="60" class="latin" >Ploceus cucullatus</text>
+<g transform="translate(22 73)"><rect width="408" height="184" rx="12" fill="#edf1e4"/><path d="M28 23Q176 11 354 32" stroke="#926346" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M177 21l-13 32M194 22l-4 28" stroke="#789866" stroke-width="8"/><path d="M130 50 C204 18 282 60 272 137 C266 181 208 189 160 156 C119 128 104 93 130 50Z" fill="#789866"/>
+<g clip-path="url(#weaver-clip)" stroke-linecap="round" fill="none">
+<path d="M85 27q-24 78 85 164" stroke="#b1bc7a" stroke-width="4"/>
+<path d="M100 27q-24 78 85 164" stroke="#d3cf96" stroke-width="4"/>
+<path d="M115 27q-24 78 85 164" stroke="#496d49" stroke-width="4"/>
+<path d="M130 27q-24 78 85 164" stroke="#b1bc7a" stroke-width="4"/>
+<path d="M145 27q-24 78 85 164" stroke="#d3cf96" stroke-width="4"/>
+<path d="M160 27q-24 78 85 164" stroke="#496d49" stroke-width="4"/>
+<path d="M175 27q-24 78 85 164" stroke="#b1bc7a" stroke-width="4"/>
+<path d="M190 27q-24 78 85 164" stroke="#d3cf96" stroke-width="4"/>
+<path d="M205 27q-24 78 85 164" stroke="#496d49" stroke-width="4"/>
+<path d="M220 27q-24 78 85 164" stroke="#b1bc7a" stroke-width="4"/>
+<path d="M235 27q-24 78 85 164" stroke="#d3cf96" stroke-width="4"/>
+<path d="M250 27q-24 78 85 164" stroke="#496d49" stroke-width="4"/>
+<path d="M265 27q-24 78 85 164" stroke="#b1bc7a" stroke-width="4"/>
+<path d="M280 27q-24 78 85 164" stroke="#d3cf96" stroke-width="4"/>
+<path d="M295 27q-24 78 85 164" stroke="#496d49" stroke-width="4"/>
+<path d="M96 40q91 42 186 -2" stroke="#506f48" stroke-width="3"/>
+<path d="M96 56q91 42 186 -2" stroke="#b1bc7a" stroke-width="3"/>
+<path d="M96 72q91 42 186 -2" stroke="#506f48" stroke-width="3"/>
+<path d="M96 88q91 42 186 -2" stroke="#b1bc7a" stroke-width="3"/>
+<path d="M96 104q91 42 186 -2" stroke="#506f48" stroke-width="3"/>
+<path d="M96 120q91 42 186 -2" stroke="#b1bc7a" stroke-width="3"/>
+<path d="M96 136q91 42 186 -2" stroke="#506f48" stroke-width="3"/>
+<path d="M96 152q91 42 186 -2" stroke="#b1bc7a" stroke-width="3"/>
+<path d="M96 168q91 42 186 -2" stroke="#506f48" stroke-width="3"/>
+</g><ellipse cx="227" cy="147" rx="30" ry="18" transform="rotate(23 227 147)" fill="#314f37"/><path d="M219 133q-14 18 16 30" stroke="#bdc491" stroke-width="6" fill="none"/>
+<g transform="translate(24 59)"><path d="M41 34Q75 21 76 54Q71 76 43 68L25 78l6 -21Q20 42 30 32Z" fill="#e2ae4f"/><path d="M47 44q17 -11 24 2l-11 20 -23 -6Z" fill="#203d34"/><circle cx="30" cy="31" r="15" fill="#203d34"/><circle cx="26" cy="28" r="2" fill="#c58b65"/><path d="M16 30L4 33l12 7" fill="#203d34"/><path d="M44 67l2 10M58 67l-1 11" stroke="#203d34" stroke-width="2"/><path d="M26 80h42" stroke="#926346" stroke-width="3"/></g>
+<text x="282" y="164" class="tiny" >entry below</text>
+<path d="M278 155l-23 -5" stroke="#647568" stroke-width="1.2"/>
+</g>
+<circle cx="26" cy="283" r="5" fill="#789866"/>
+<text x="39" y="288" class="label" >HANGING NEST  /  GRASS + LEAVES</text>
+<text x="22" y="310" class="body" >Collected strips; softer grass and feather lining.</text>
+<rect x="372" y="271" width="58" height="23" rx="11.5" fill="#789866" fill-opacity=".14"/>
+<text x="401" y="287" class="label" text-anchor="middle">C</text>
+<text x="22" y="342" class="caption" id="caption-4"><tspan x="22" dy="0">A male weaves gathered grass or other leaf</tspan><tspan x="22" dy="24">strips into a hanging nest, usually with a</tspan><tspan x="22" dy="24">downward entrance. A female adds softer grass</tspan><tspan x="22" dy="24">and feathers after accepting the structure.</tspan></text>
+</g>
+<g id="entry-5" class="illustrated-entry" transform="translate(36 1110)"><rect width="928" height="300" rx="19" fill="#fffcf6" stroke="#203d34" stroke-opacity=".13"/><rect width="928" height="7" rx="3.5" fill="#e2ae4f"/>
+<text x="22" y="37" class="kicker" >05</text><text x="59" y="38" class="name" >Western honey bee</text><text x="59" y="60" class="latin" >Apis mellifera</text>
+<g transform="translate(22 74)"><rect width="407" height="199" rx="12" fill="#f5eed6"/><path d="M60 11Q189 -14 285 16L290 172Q167 220 60 177Z" fill="#c7b99a"/><path d="M77 26Q179 -1 269 36L270 181Q175 209 77 174Z" fill="#5c6452"/><path d="M87 42 Q182 12 256 55 L253 176 Q183 218 92 175Z" fill="#e2ae4f"/><g clip-path="url(#comb-clip)">
+<polygon points="97.99,42.50 85.00,50.00 72.01,42.50 72.01,27.50 85.00,20.00 97.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="92.79,39.50 85.00,44.00 77.21,39.50 77.21,30.50 85.00,26.00 92.79,30.50" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="124.99,42.50 112.00,50.00 99.01,42.50 99.01,27.50 112.00,20.00 124.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="151.99,42.50 139.00,50.00 126.01,42.50 126.01,27.50 139.00,20.00 151.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="178.99,42.50 166.00,50.00 153.01,42.50 153.01,27.50 166.00,20.00 178.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="205.99,42.50 193.00,50.00 180.01,42.50 180.01,27.50 193.00,20.00 205.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="232.99,42.50 220.00,50.00 207.01,42.50 207.01,27.50 220.00,20.00 232.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="259.99,42.50 247.00,50.00 234.01,42.50 234.01,27.50 247.00,20.00 259.99,27.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="254.79,39.50 247.00,44.00 239.21,39.50 239.21,30.50 247.00,26.00 254.79,30.50" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="111.49,65.90 98.50,73.40 85.51,65.90 85.51,50.90 98.50,43.40 111.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="138.49,65.90 125.50,73.40 112.51,65.90 112.51,50.90 125.50,43.40 138.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="165.49,65.90 152.50,73.40 139.51,65.90 139.51,50.90 152.50,43.40 165.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="192.49,65.90 179.50,73.40 166.51,65.90 166.51,50.90 179.50,43.40 192.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="219.49,65.90 206.50,73.40 193.51,65.90 193.51,50.90 206.50,43.40 219.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="246.49,65.90 233.50,73.40 220.51,65.90 220.51,50.90 233.50,43.40 246.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="241.29,62.90 233.50,67.40 225.71,62.90 225.71,53.90 233.50,49.40 241.29,53.90" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="273.49,65.90 260.50,73.40 247.51,65.90 247.51,50.90 260.50,43.40 273.49,50.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="97.99,89.30 85.00,96.80 72.01,89.30 72.01,74.30 85.00,66.80 97.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="124.99,89.30 112.00,96.80 99.01,89.30 99.01,74.30 112.00,66.80 124.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="151.99,89.30 139.00,96.80 126.01,89.30 126.01,74.30 139.00,66.80 151.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="178.99,89.30 166.00,96.80 153.01,89.30 153.01,74.30 166.00,66.80 178.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="205.99,89.30 193.00,96.80 180.01,89.30 180.01,74.30 193.00,66.80 205.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="200.79,86.30 193.00,90.80 185.21,86.30 185.21,77.30 193.00,72.80 200.79,77.30" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="232.99,89.30 220.00,96.80 207.01,89.30 207.01,74.30 220.00,66.80 232.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="259.99,89.30 247.00,96.80 234.01,89.30 234.01,74.30 247.00,66.80 259.99,74.30" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="111.49,112.70 98.50,120.20 85.51,112.70 85.51,97.70 98.50,90.20 111.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="138.49,112.70 125.50,120.20 112.51,112.70 112.51,97.70 125.50,90.20 138.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="165.49,112.70 152.50,120.20 139.51,112.70 139.51,97.70 152.50,90.20 165.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="192.49,112.70 179.50,120.20 166.51,112.70 166.51,97.70 179.50,90.20 192.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="187.29,109.70 179.50,114.20 171.71,109.70 171.71,100.70 179.50,96.20 187.29,100.70" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="219.49,112.70 206.50,120.20 193.51,112.70 193.51,97.70 206.50,90.20 219.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="246.49,112.70 233.50,120.20 220.51,112.70 220.51,97.70 233.50,90.20 246.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="273.49,112.70 260.50,120.20 247.51,112.70 247.51,97.70 260.50,90.20 273.49,97.70" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="97.99,136.10 85.00,143.60 72.01,136.10 72.01,121.10 85.00,113.60 97.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="124.99,136.10 112.00,143.60 99.01,136.10 99.01,121.10 112.00,113.60 124.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="151.99,136.10 139.00,143.60 126.01,136.10 126.01,121.10 139.00,113.60 151.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="146.79,133.10 139.00,137.60 131.21,133.10 131.21,124.10 139.00,119.60 146.79,124.10" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="178.99,136.10 166.00,143.60 153.01,136.10 153.01,121.10 166.00,113.60 178.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="205.99,136.10 193.00,143.60 180.01,136.10 180.01,121.10 193.00,113.60 205.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="232.99,136.10 220.00,143.60 207.01,136.10 207.01,121.10 220.00,113.60 232.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="259.99,136.10 247.00,143.60 234.01,136.10 234.01,121.10 247.00,113.60 259.99,121.10" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="111.49,159.50 98.50,167.00 85.51,159.50 85.51,144.50 98.50,137.00 111.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="138.49,159.50 125.50,167.00 112.51,159.50 112.51,144.50 125.50,137.00 138.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="133.29,156.50 125.50,161.00 117.71,156.50 117.71,147.50 125.50,143.00 133.29,147.50" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="165.49,159.50 152.50,167.00 139.51,159.50 139.51,144.50 152.50,137.00 165.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="192.49,159.50 179.50,167.00 166.51,159.50 166.51,144.50 179.50,137.00 192.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="219.49,159.50 206.50,167.00 193.51,159.50 193.51,144.50 206.50,137.00 219.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="246.49,159.50 233.50,167.00 220.51,159.50 220.51,144.50 233.50,137.00 246.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="273.49,159.50 260.50,167.00 247.51,159.50 247.51,144.50 260.50,137.00 273.49,144.50" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="97.99,182.90 85.00,190.40 72.01,182.90 72.01,167.90 85.00,160.40 97.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="92.79,179.90 85.00,184.40 77.21,179.90 77.21,170.90 85.00,166.40 92.79,170.90" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+<polygon points="124.99,182.90 112.00,190.40 99.01,182.90 99.01,167.90 112.00,160.40 124.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="151.99,182.90 139.00,190.40 126.01,182.90 126.01,167.90 139.00,160.40 151.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="178.99,182.90 166.00,190.40 153.01,182.90 153.01,167.90 166.00,160.40 178.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="205.99,182.90 193.00,190.40 180.01,182.90 180.01,167.90 193.00,160.40 205.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="232.99,182.90 220.00,190.40 207.01,182.90 207.01,167.90 220.00,160.40 232.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="259.99,182.90 247.00,190.40 234.01,182.90 234.01,167.90 247.00,160.40 259.99,167.90" fill="#e8bb63" stroke="#ac7b34" stroke-width="1.8"/>
+<polygon points="254.79,179.90 247.00,184.40 239.21,179.90 239.21,170.90 247.00,166.40 254.79,170.90" fill="#f4d595" stroke="#dca74d" stroke-width="0.8"/>
+</g><path d="M79 35Q75 80 83 163" stroke="#926346" stroke-width="5" fill="none"/>
+<rect x="0" y="174" width="407" height="25" rx="6" fill="#f5eed6"/>
+<text x="16" y="191" class="tiny" >Natural cavity shown in cutaway; bees build the comb.</text>
+<g transform="translate(296 82)"><g fill="#d5dfd3" stroke="#647568" stroke-width="1.5"><ellipse cx="15" cy="6" rx="12" ry="25" transform="rotate(-30 15 6)"/><ellipse cx="37" cy="8" rx="11" ry="26" transform="rotate(27 37 8)"/></g><ellipse cx="32" cy="32" rx="28" ry="19" fill="#e2ae4f"/><path d="M22 17q-5 16 1 31M36 15q-5 16 1 34M49 18q-4 14 0 26" stroke="#203d34" stroke-width="7"/><circle cx="7" cy="28" r="11" fill="#203d34"/><g stroke="#203d34" stroke-width="2" fill="none" stroke-linecap="round"><path d="M5 20L0 11M11 18l1 -10M18 43l-4 13M29 49l-1 11M41 47l8 10"/></g><circle cx="3" cy="25" r="2" fill="#f7f2e8"/></g>
+</g>
+<text x="459" y="39" class="label" >COMB CELLS  /  WAX</text>
+<circle cx="464" cy="61" r="5" fill="#e2ae4f"/>
+<text x="477" y="66" class="body" >Wax: produced (P)</text>
+<text x="459" y="93" class="body" >Collected resins (C) also contribute to nest sealing.</text>
+<text x="459" y="132" class="caption" id="caption-5"><tspan x="459" dy="0">Workers secrete wax and shape it into hexagonal</tspan><tspan x="459" dy="24">comb cells that shelter developing young and</tspan><tspan x="459" dy="24">hold food. Elsewhere in the nest, collected</tspan><tspan x="459" dy="24">plant resins contribute to the sealing material</tspan><tspan x="459" dy="24">called propolis.</tspan></text>
+<path d="M459 243H906" stroke="#203d34" stroke-opacity=".14"/>
+<text x="459" y="268" class="tiny" >CELL MATERIAL  ≠  EVERY MATERIAL IN THE NEST</text>
+</g>
+<path d="M36 1433H964" stroke="#203d34" stroke-opacity=".25"/>
+<text x="36" y="1460" class="note" >Schematic drawings, not to scale. Nest choices and material mixtures vary.</text>
+<text x="36" y="1485" class="tiny" >Institutional sources and direct claim mappings for all five entries are embedded in the SVG.</text>
+<text x="964" y="1485" class="tiny" text-anchor="end">ORIGINAL VECTOR ATLAS</text>
+</svg>
